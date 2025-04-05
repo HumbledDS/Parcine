@@ -14,6 +14,54 @@ pnpm dev
 bun dev
 ```
 
+# Parcine - Emballages Écologiques Professionnels
+
+![Parcine Logo](public/images/logo.svg)
+
+## À propos
+
+Parcine est une plateforme dédiée aux solutions d'emballage écologiques pour les professionnels, particulièrement dans les secteurs de la restauration et de l'alimentation. Notre site propose une large gamme de produits biodégradables et compostables, avec un système de commande direct via WhatsApp.
+
+## Technologies
+
+- **Frontend**: Next.js 14 avec App Router, TypeScript, Tailwind CSS
+- **Animations**: Framer Motion, Swiper
+- **Performance**: Optimisation d'images avec Next/Image et Sharp
+- **Contenu**: Données JSON statiques pour les produits et catégories
+
+## Structure du projet
+
+- `/src/app` - Routes et pages Next.js (App Router)
+- `/src/components` - Composants React réutilisables
+- `/src/hooks` - Hooks personnalisés React
+- `/src/types` - Types TypeScript
+- `/src/utils` - Fonctions utilitaires
+- `/public` - Fichiers statiques et données JSON
+
+## Fonctionnalités principales
+
+- Design responsive optimisé pour mobile
+- Catalogue de produits avec filtres par catégories
+- Galerie d'images produits avec zoom
+- Contact direct via WhatsApp pour les commandes
+- Contenu dynamique (témoignages, FAQ, sections de valeurs)
+- Optimisations SEO et performances
+
+## Installation
+
+```bash
+# Cloner le dépôt
+git clone https://github.com/votre-compte/parcine.git
+cd parcine
+
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
+npm run dev
+
+
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
